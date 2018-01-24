@@ -1,8 +1,9 @@
 const {json} = require('micro')
+const {parse} = require('content-type')
 const urlencoded = require('urlencoded-body-parser')
 
 module.exports = async (req) => {
-  switch (req.headers['content-type']){
+  switch (parse(req).type){
     case 'application/json':
       return await json(req)
     case 'application/x-www-form-urlencoded':

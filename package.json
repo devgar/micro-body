@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/devgar/micro-body#readme",
   "dependencies": {
+    "content-type": "^1.0.4",
     "micro": "^9.1.0",
     "urlencoded-body-parser": "^2.0.1"
   }
