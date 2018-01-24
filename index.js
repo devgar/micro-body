@@ -1,4 +1,4 @@
-const {json, buffer, text} = require('micro')
+const {json} = require('micro')
 const urlencoded = require('urlencoded-body-parser')
 
 module.exports = async (req) => {
@@ -8,6 +8,6 @@ module.exports = async (req) => {
     case 'application/x-www-form-urlencoded':
       return await urlencoded(req)
     default:
-      throw new Error(`Can't parse {req.headers['content-type']}`)
+      throw new Error(`Can't parse ${req.headers['content-type']}`)
   }
 }
