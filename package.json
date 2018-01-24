@@ -1,0 +1,29 @@
+{
+  "name": "micro-body",
+  "version": "0.0.1",
+  "description": "micro body parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devgar/micro-body.git"
+  },
+  "keywords": [
+    "micro",
+    "body",
+    "parser",
+    "json"
+  ],
+  "author": "Edgar Albalate <dev.gardo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devgar/micro-body/issues"
+  },
+  "homepage": "https://github.com/devgar/micro-body#readme",
+  "dependencies": {
+    "micro": "^9.1.0",
+    "urlencoded-body-parser": "^2.0.1"
+  }
+}
