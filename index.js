@@ -3,6 +3,7 @@ const {parse} = require('content-type')
 const urlencoded = require('urlencoded-body-parser')
 
 module.exports = async (req) => {
+  if (!req.headers['content-type']) return {}
   switch (parse(req).type){
     case 'application/json':
       return await json(req)
