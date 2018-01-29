@@ -1,6 +1,6 @@
 {
   "name": "micro-body",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "micro body parser",
   "main": "index.js",
   "scripts": {
