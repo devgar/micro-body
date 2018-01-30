@@ -18,3 +18,8 @@ __micro-body__ can parse `urlencoded` and `json` body types, but throws an error
 If request hasn't got body or no `content-type` header is present __micro-body__ returns an empty object `{ }`.
 
 [micro]: https://github.com/zeit/micro
+
+## TODO:
+
+- [ ] Write tests
+- [ ] Enable multipart forms parsing
