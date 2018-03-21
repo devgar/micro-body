@@ -22,4 +22,5 @@ If request hasn't got body or no `content-type` header is present __micro-body__
 ## TODO:
 
 - [ ] Write tests
+- [ ] Write examples
 - [ ] Enable multipart forms parsing
